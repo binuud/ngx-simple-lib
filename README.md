@@ -1,2 +1,1 @@
-# angular-libs
-Angular Libraries
+projects/ngx-simple-lib/README.md
