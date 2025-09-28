@@ -1,1 +1,1 @@
-projects/ngx-simple-lib/README.md
+projects/ngx-simple-tools/README.md
