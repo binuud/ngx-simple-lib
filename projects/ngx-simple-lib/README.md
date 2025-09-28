@@ -3,6 +3,8 @@
 Collection of usefule pipes, directives and simple components. This library will be useful in many projects.
 And there is no dependency for this library.
 
+These are common constructs, utils and libs used in many of my projects, usually end up duplicating same logic, with minor changes and versions.
+
 ## Install
 
 Using npm, install the package
