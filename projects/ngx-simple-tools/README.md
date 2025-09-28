@@ -1,5 +1,7 @@
 # NgxSimpleLib
 
+In Aplha stage.
+
 Collection of usefule pipes, directives and simple components. This library will be useful in many projects.
 And there is no dependency for this library.
 
@@ -9,12 +11,12 @@ These are common constructs, utils and libs used in many of my projects, usually
 
 Using npm, install the package
 ```
-npm install --save ngx-simple-lib
+npm install --save ngx-simple-tools
 ```
 
 Import the library
 ```
-import { AgoTimePipe, FilterByPipe, SafePipe, StorageUnitsPipe } from 'ngx-simple-lib';
+import { AgoTimePipe, FilterByPipe, SafePipe, StorageUnitsPipe } from 'ngx-simple-tools';
 ```
 
 Add the needed Pipe, Directive in the import command

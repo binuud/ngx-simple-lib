@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ngx-simple-lib
+ * Public API Surface of ngx-simple-tools
  */
 
 
