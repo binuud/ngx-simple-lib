@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { AgoTimePipe, FilterByPipe, SafePipe, StorageUnitsPipe, MicroTimeDisplayPipe } from 'ngx-simple-lib';
+import { AgoTimePipe, FilterByPipe, SafePipe, StorageUnitsPipe, MicroTimeDisplayPipe } from 'ngx-simple-tools';
 
 @Component({
   selector: 'app-root',
