@@ -7,7 +7,7 @@
 # Optional environmental variables
 
 REPO=dronasys-com
-APP=ngx-simple-lib
+APP=ngx-simple-tools
 ANGULAR_CLI_DEV=angular-cli-headless-chrome
 
 BUILD_VER ?= a1.0.0
@@ -24,16 +24,16 @@ help: ## This help.
 .DEFAULT_GOAL := help
 
 build: ## build all libraries in this project
-	ng build ngx-simple-lib
+	ng build ngx-simple-tools
 
 test: ## run angular tests, if you are running within docker, container must container chromium headless
-	ng test ngx-simple-lib
+	ng test ngx-simple-tools
 
 run-lib: ## run the lib watching for changes
-	ng build ngx-simple-lib --watch
+	ng build ngx-simple-tools --watch
 
 run: ## runs the angular demo project
 	ng serve
 	
-publish: ## publish to npm - cd dist/ngx-serial-console/  && npm publish   	
-#	cd dist/ngx-serial-console/  && npm publish   	
+publish: ## publish to npm - cd dist/ngx-simple-tools/  && npm publish   	
+#	cd dist/ngx-simple-tools/  && npm publish   	
