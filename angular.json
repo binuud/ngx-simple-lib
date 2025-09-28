@@ -3,20 +3,20 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-simple-lib": {
+    "ngx-simple-tools": {
       "projectType": "library",
-      "root": "projects/ngx-simple-lib",
-      "sourceRoot": "projects/ngx-simple-lib/src",
+      "root": "projects/ngx-simple-tools",
+      "sourceRoot": "projects/ngx-simple-tools/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular/build:ng-packagr",
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-simple-lib/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-simple-tools/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-simple-lib/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-simple-tools/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -24,7 +24,7 @@
         "test": {
           "builder": "@angular/build:karma",
           "options": {
-            "tsConfig": "projects/ngx-simple-lib/tsconfig.spec.json"
+            "tsConfig": "projects/ngx-simple-tools/tsconfig.spec.json"
           }
         }
       }

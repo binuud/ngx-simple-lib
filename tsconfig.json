@@ -8,8 +8,8 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "ngx-simple-lib": [
-        "./dist/ngx-simple-lib"
+      "ngx-simple-tools": [
+        "./dist/ngx-simple-tools"
       ]
     },
     "noFallthroughCasesInSwitch": true,
@@ -30,10 +30,10 @@
   "files": [],
   "references": [
     {
-      "path": "./projects/ngx-simple-lib/tsconfig.lib.json"
+      "path": "./projects/ngx-simple-tools/tsconfig.lib.json"
     },
     {
-      "path": "./projects/ngx-simple-lib/tsconfig.spec.json"
+      "path": "./projects/ngx-simple-tools/tsconfig.spec.json"
     },
     {
       "path": "./projects/demo/tsconfig.app.json"
