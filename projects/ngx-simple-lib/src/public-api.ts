@@ -2,7 +2,7 @@
  * Public API Surface of ngx-simple-lib
  */
 
-export * from './lib/ngx-simple-lib';
+
 export * from './lib/directives/copy-to-clipboard';
 export * from './lib/directives/draggable.directive';
 export * from './lib/directives/tooltip';

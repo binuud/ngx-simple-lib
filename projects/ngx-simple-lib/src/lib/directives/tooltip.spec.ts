@@ -1,13 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { Tooltip } from './tooltip';
-import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-@Component({
-  template: `<div title="Test"></div>`
-})
-class TestComponent {}
+describe('Tooltip', () => {
+  it('should create an instance', () => {
+    
+    const mockElementRef = {
+      nativeElement: document.createElement('div')
+    } as ElementRef;
+    
+    const directive = new Tooltip(mockElementRef);
 
-
-describe('ToolTip', () => {  
-  let fixture: ComponentFixture<TestComponent>;
+    expect(directive).toBeTruthy();
+  });
 });
